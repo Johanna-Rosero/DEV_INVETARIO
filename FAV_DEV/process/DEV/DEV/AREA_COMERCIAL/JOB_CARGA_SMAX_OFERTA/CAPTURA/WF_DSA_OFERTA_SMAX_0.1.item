@@ -81,7 +81,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:cesmFMjdwqKs31wjBPUqnZwmuJgJ5fsbZMPtPjU8" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:ZDI5zRpB7WpINnZP1xCu3Xrf962GWwFNJWEVEcWT" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -91,20 +91,20 @@
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/TalendLogs&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace4/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
@@ -116,15 +116,15 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CsygaDbJPAW4qwihg9h7o3R1qljxdcKHBqZmRGct" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jNztzChzP9XL27GDz/Mo2qFOoazHDahtf1Kat5z1" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
     <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
@@ -260,8 +260,6 @@
   <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="250">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryBulkExec_2" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_G6vR8OxTEe69B8RRI-f5Fg - metadata" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
     <elementParameter field="PASSWORD" name="ACCESS_TOKEN" value="enc:system.encryption.key.v1:yeN5F3CL7JDLmVqgowPf/TXQij9reX7egWDNbr87" show="false"/>
     <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;" show="false"/>
@@ -315,8 +313,6 @@
   <node componentName="tBigQueryBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="370">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryBulkExec_4" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_WyzE0PH7Ee6pzfgx_ny4Jw - metadata" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
     <elementParameter field="PASSWORD" name="ACCESS_TOKEN" value="enc:system.encryption.key.v1:lACKuSp7JDmqQgZuItBFMNpvcBm/h2GvCkfbniUe" show="false"/>
     <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;" show="false"/>
@@ -422,7 +418,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  SCPRETHISARTLOCPREPDV.CODIGOCOMPANIA, &#xA;  SCPRETHISARTLOCPREPDV.SECHISARTLOCPRE, &#xA;  SCPRETHISARTLOCPREPDV.SECHISGESPRE, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOARTICULO, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOAREATRABAJO, &#xA;  SCPRETHISARTLOCPREPDV.FECHAINICIO, &#xA;  SCPRETHISARTLOCPREPDV.FECHAFIN, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PORCENTAJE, &#xA;  SCPRETHISARTLOCPREPDV.VALORBASEOFERTA, &#xA;  SCPRETHISARTLOCPREPDV.FECHAFINOFERTA, &#xA;  SCPRETHISARTLOCPREPDV.VALORCAUSAL, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOVALORCAUSAL, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOGESTIONPRECIO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTOANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTONUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTOANTERIORIVA, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTONUEVOIVA, &#xA;  SCPRETHISARTLOCPREPDV.SPREADANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.SPREADNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIMPANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIMPNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONAANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONANUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONAIMPANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONAIMPNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIRBPANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIRBPNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFEIMP, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFENA, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFENAIMP, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFEIRBP, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIMPANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIMPNUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNAANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNANUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNAIMPANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNAIMPNUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIRBPANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIRBPNUE, &#xA;  SCPRETHISARTLOCPREPDV.INDENTIFICADORPDV, &#xA;  SCPRETHISARTLOCPREPDV.INTEGRAR, &#xA;  SCPRETHISARTLOCPREPDV.ESTADO, &#xA;  SCPRETHISARTLOCPREPDV.IDUSUARIOREGISTRO, &#xA;  SCPRETHISARTLOCPREPDV.FECHAREGISTRO, &#xA;  SCPRETHISARTLOCPREPDV.IDUSUARIOMODIFICACION, &#xA;  SCPRETHISARTLOCPREPDV.FECHAMODIFICACION&#xA; FROM SCPRETHISARTLOCPREPDV&#xD;&#xA;WHERE &#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAFIN>=  '2023-01-01' AND SCPRETHISARTLOCPREPDV.FECHAFIN&lt;=CURRENT_DATE) OR&#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAINICIO>= '2023-01-01'  AND SCPRETHISARTLOCPREPDV.FECHAINICIO&lt;=CURRENT_DATE)&#xD;&#xA;/*&#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAFIN>=CURRENT_DATE -15 DAY AND SCPRETHISARTLOCPREPDV.FECHAFIN&lt;=CURRENT_DATE) OR&#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAINICIO>=CURRENT_DATE -15 DAY AND SCPRETHISARTLOCPREPDV.FECHAINICIO&lt;=CURRENT_DATE)*/&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  SCPRETHISARTLOCPREPDV.CODIGOCOMPANIA, &#xA;  SCPRETHISARTLOCPREPDV.SECHISARTLOCPRE, &#xA;  SCPRETHISARTLOCPREPDV.SECHISGESPRE, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOARTICULO, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOAREATRABAJO, &#xA;  SCPRETHISARTLOCPREPDV.FECHAINICIO, &#xA;  SCPRETHISARTLOCPREPDV.FECHAFIN, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PORCENTAJE, &#xA;  SCPRETHISARTLOCPREPDV.VALORBASEOFERTA, &#xA;  SCPRETHISARTLOCPREPDV.FECHAFINOFERTA, &#xA;  SCPRETHISARTLOCPREPDV.VALORCAUSAL, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOVALORCAUSAL, &#xA;  SCPRETHISARTLOCPREPDV.CODIGOGESTIONPRECIO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTOANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTONUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTOANTERIORIVA, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOCREDITODIRECTONUEVOIVA, &#xA;  SCPRETHISARTLOCPREPDV.SPREADANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.SPREADNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIMPANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIMPNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONAANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONANUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONAIMPANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIONAIMPNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIRBPANTERIOR, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOIRBPNUEVO, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFEIMP, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFENA, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFENAIMP, &#xA;  SCPRETHISARTLOCPREPDV.PREBASOFEIRBP, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIMPANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIMPNUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNAANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNANUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNAIMPANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVNAIMPNUE, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIRBPANT, &#xA;  SCPRETHISARTLOCPREPDV.PRECIOPDVIRBPNUE, &#xA;  SCPRETHISARTLOCPREPDV.INDENTIFICADORPDV, &#xA;  SCPRETHISARTLOCPREPDV.INTEGRAR, &#xA;  SCPRETHISARTLOCPREPDV.ESTADO, &#xA;  SCPRETHISARTLOCPREPDV.IDUSUARIOREGISTRO, &#xA;  SCPRETHISARTLOCPREPDV.FECHAREGISTRO, &#xA;  SCPRETHISARTLOCPREPDV.IDUSUARIOMODIFICACION, &#xA;  SCPRETHISARTLOCPREPDV.FECHAMODIFICACION&#xA; FROM SCPRETHISARTLOCPREPDV&#xD;&#xA;WHERE &#xD;&#xA;/*(SCPRETHISARTLOCPREPDV.FECHAFIN>=  '2020-01-01' AND SCPRETHISARTLOCPREPDV.FECHAFIN&lt; CURRENT_DATE+1 DAY) OR&#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAINICIO>= '2020-01-01'  AND SCPRETHISARTLOCPREPDV.FECHAINICIO&lt; CURRENT_DATE+1 DAY)&#xD;&#xA;*/&#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAFIN>=CURRENT_DATE -15 DAY AND SCPRETHISARTLOCPREPDV.FECHAFIN&lt;=CURRENT_DATE) OR&#xD;&#xA;(SCPRETHISARTLOCPREPDV.FECHAINICIO>=CURRENT_DATE -15 DAY AND SCPRETHISARTLOCPREPDV.FECHAINICIO&lt;=CURRENT_DATE)&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="as400_id" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;prompt=false&quot;" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
@@ -703,8 +699,6 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBigQueryBulkExec_5" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_EmqboPHnEe6pzfgx_ny4Jw - metadata" show="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="SERVICEACCOUNT"/>
     <elementParameter field="PASSWORD" name="ACCESS_TOKEN" value="enc:system.encryption.key.v1:YmQoZjyL8YYdktR9SIFZJ99+RxTc4y+ZGjEmL/bS" show="false"/>
     <elementParameter field="LABEL" name="ACCESS_TOKEN_WARNING" value="*Note: If the Access Token Expire we won't be able to refresh it!&quot;" show="false"/>

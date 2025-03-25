@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_eZizgAZ7EfCXysbugsB1Vg" comment="connectionComment" label="connectionLabel" dataPackage="_eZizgQZ7EfCXysbugsB1Vg" mappingTypeUsed="true" mappingTypeId="teradata_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_eZizgQZ7EfCXysbugsB1Vg" dataManager="_eZizgAZ7EfCXysbugsB1Vg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eZizggZ7EfCXysbugsB1Vg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizgwZ7EfCXysbugsB1Vg" name="ID_FECHA_PEDIDO" id="239691" label="ID_FECHA_PEDIDO" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZizhAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizhQZ7EfCXysbugsB1Vg" name="ID_FECHA_DESPACHO" id="239692" label="ID_FECHA_DESPACHO" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZizhgZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizhwZ7EfCXysbugsB1Vg" name="ID_UOP_CDI" id="239693" label="ID_UOP_CDI" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZiziAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZiziQZ7EfCXysbugsB1Vg" name="ID_UOP_ORIGEN" id="239694" label="ID_UOP_ORIGEN" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZizigZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZiziwZ7EfCXysbugsB1Vg" name="ID_UOP_DEST" id="239695" label="ID_UOP_DEST" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZizjAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizjQZ7EfCXysbugsB1Vg" name="ID_ITEM" id="239696" label="ID_ITEM" length="19" sourceType="INTEGER" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_eZizjgZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizjwZ7EfCXysbugsB1Vg" name="COD_BARRAS" id="239697" label="COD_BARRAS" length="19" sourceType="INTEGER" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_eZizkAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizkQZ7EfCXysbugsB1Vg" name="ID_RESPONSABLE" id="239698" label="ID_RESPONSABLE" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZizkgZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizkwZ7EfCXysbugsB1Vg" name="ID_PEDIDO" id="239699" label="ID_PEDIDO" length="19" sourceType="INTEGER" talendType="id_Long" nullable="false">
+        <initialValue xmi:id="_eZizlAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizlQZ7EfCXysbugsB1Vg" name="ID_ESTADO" id="239700" label="ID_ESTADO" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_eZizlgZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizlwZ7EfCXysbugsB1Vg" name="TOTAL_PEDIDO" id="239701" label="TOTAL_PEDIDO" length="15" precision="3" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_eZizmAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizmQZ7EfCXysbugsB1Vg" name="CANT_PEDIDA" id="239702" label="CANT_PEDIDA" length="15" precision="3" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_eZizmgZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizmwZ7EfCXysbugsB1Vg" name="RESERVA" id="239703" label="RESERVA" length="15" precision="3" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_eZiznAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZiznQZ7EfCXysbugsB1Vg" name="PENDIENTE" id="239704" label="PENDIENTE" length="15" precision="3" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_eZizngZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZiznwZ7EfCXysbugsB1Vg" name="CANT_DEVUELTA" id="239705" label="CANT_DEVUELTA" length="15" precision="3" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_eZizoAZ7EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eZizoQZ7EfCXysbugsB1Vg" name="ETL_TSTAMP" id="239706" label="ETL_TSTAMP" length="26" precision="6" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_eZizogZ7EfCXysbugsB1Vg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

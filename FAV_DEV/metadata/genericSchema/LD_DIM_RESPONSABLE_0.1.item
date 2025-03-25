@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_toJhIAZ6EfCXysbugsB1Vg" comment="connectionComment" label="connectionLabel" dataPackage="_toJhIQZ6EfCXysbugsB1Vg" mappingTypeUsed="true" mappingTypeId="teradata_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_toJhIQZ6EfCXysbugsB1Vg" dataManager="_toJhIAZ6EfCXysbugsB1Vg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_toKIMAZ6EfCXysbugsB1Vg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_toKIMQZ6EfCXysbugsB1Vg" name="ID_RESPONSABLE" id="160712" label="ID_RESPONSABLE" length="10" sourceType="INTEGER" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_toKIMgZ6EfCXysbugsB1Vg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_toKIMwZ6EfCXysbugsB1Vg" name="COD_RESPON" id="160713" label="COD_RESPON" length="3" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_toKINAZ6EfCXysbugsB1Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_toKINQZ6EfCXysbugsB1Vg" name="DESC_RESPON" id="160714" label="DESC_RESPON" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_toKINgZ6EfCXysbugsB1Vg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_toKINwZ6EfCXysbugsB1Vg" name="ETL_TSTAMP" id="160715" label="ETL_TSTAMP" length="26" precision="6" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_toKIOAZ6EfCXysbugsB1Vg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
